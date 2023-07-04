@@ -1,0 +1,25 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="utf-8" lang="en">
+        <title>Sign Up</title>
+    </head>
+    <body style="font-size: 2vw;">
+        <a href="index.html"><img src="images/logo1.png" style="width: 20%;"></a><br>
+        <input id="search" type="text"placeholder="search...">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="cat.html">Cat Owners </a> 
+            <a href="dog.html">Dog Owners </a> 
+            <a href="bird.html">Bird Owners </a> 
+            <a href="sign_in.html">Sign In</a> 
+        </nav>
+
+        <hr>
+        <footer>
+            <a href="faq.html">FAQ</a>
+            <a href="contactUs.html">Contact Us</a>
+            <a href="sign_up.html">Sign Up</a>
+        </footer>
+    </body>
+</html>
