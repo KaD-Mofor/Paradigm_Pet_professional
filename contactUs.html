@@ -23,15 +23,46 @@
 
         <div>
             <h2>Contact Us</h2>
-            <img id="consultation" src="images/Picture2.jpg" alt="Two men sitting talking">
             <p>For any inquiries please fill out the form below and we will get back to you within 24 hours.</p>
+            <img id="consultation" src="images/Picture2.jpg" alt="Two men sitting talking">
+            </div>
 
-        </div>
+        <main>
+            <p><i><small>All required fields have an asterisk</small></i>(*)</p>
+            <form name="inquiry" method="post" action="http://webdevbasics.net/scripts/demo.php">
+                <fieldset>
+                    <legend>Customer Information</legend>
+                        <label for="myName">*Full Name:</label>
+                        <input type="text" name="myName" id="myName" Required><br>
+                        <label for="myEmail">*E-Mail:</label>
+                        <input type="email" name="myEmail" id="myEmail" Required><br>
+                        <label for="mobile">Mobile:</label>
+                        <input type="tel" name="mobile" id="mobile"><br>
+                        <label for="myComments">*Comments:</label><br>
+                        <textarea name="myComments" id="myComments" rows="6" cols="50" required="required"></textarea><br>
+                        <input type="button" value="Submit" alt="Submit button">
+                    </fieldset>
+            </form>
+            <br>
+                <h4>Our address</h4>
+                    <p>
+                    <strong>
+                    3232 Peachtree Industrial Blvd<br>
+                    Duluth, GA 30096<br>
+                    <a id="mobile" href="tel:878-505-5718">878-505-5718</a>
+                    <span id="desktop">Call 878-505-5718</span><br>
+                    </strong>
+                </p>
+            </main>
+
         <hr>
         <footer>
             <a href="faq.html">FAQ</a>
             <a href="contactUs.html">Contact Us</a>
-            <a id="signup" href="sign_up.html">Sign Up</a>
+            <a id="signup" href="sign_up.html">Sign Up</a><br>
+            <a href="mailto:dkubong@wgu.edu">Email Us!</a><br>
+            Copyright &copy; 2023 Paradigm Pet Professionals.
+        
         </footer>
     </body>
 </html>
