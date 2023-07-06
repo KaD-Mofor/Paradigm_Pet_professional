@@ -21,7 +21,7 @@ nav a {
     padding: 1%;
 }
 li {
-    list-style-type: none;
+    list-style-type: disc;
     margin: 0%;
     padding: 0%;
     left: 0%;
@@ -37,11 +37,15 @@ a:hover {
     color: white;}
 a:active{
     color: #BDBDBD;}
+nav a:active{
+    background-color: #BDBDBD;}
+nav a:hover {
+    background-color: #676767;}
+
 footer {
     background-color: #003B6D;
     display: block;
-    padding: 1.5em;
-    
+    padding: 1.5em; 
     }
 a.footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -49,18 +53,74 @@ a.footer {
     text-align: center;
     padding: auto;
 }
-
+#logo {
+    border-radius: 3%;
+}
 #cat4 {
     float: right;
     position: relative;
+    padding: 0px 15px 0px 20px;
+    border-radius: 10%;
+}
+p {
+    overflow: auto;
+}
+#cat1 {
+    float: right;
+    width: 20%;
+    padding: 1%;
+    border: #003B6D;
+    border-style: outset;
+}
+#cat2 {
+    float: right;
+    width: 25%;
+    padding: 1%;
+    border: #003B6D;
+    border-style: outset;
 }
 #cat3 {
-    display: block;
+    float: right;
+    width: 30%;
+    padding: 1%;
+    border: #003B6D;
+    border-style: outset;
+}
+#cat4 {
+    float: right;
+    width: 30%;
+    padding: 1%;
+    border: #003B6D;
+    border-style: outset;
+}
+#cat5 {
+    float: right;
+    width: 30%;
+    padding: 1%;
+    border: #003B6D;
+    border-style: outset;
+}
+#dog1 {
+    float: left;
+    padding: 1%;
+    border-radius: 10%;
+    border: #003B6D;
+    border-style: outset;
+}
+#dog2 {
+    float: right;
+    padding: 1%;
+    width: 30%;
+    border-radius: 10%;
+    border: #003B6D;
+    border-style: outset;
 }
 #dog3 {
     float: left;
-    padding: 0px 15px 15px 0px;
+    padding: 1%;
     border-radius: 10%;
+    border: #003B6D;
+    border-style: outset;
 }
 #search {
     float: right;
@@ -73,6 +133,10 @@ a.footer {
     background-color: aliceblue;
 }
 #signin {
+    float: right;
+    text-align: center;
+}
+#signup {
     float: right;
 }
 
