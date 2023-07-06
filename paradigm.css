@@ -46,14 +46,15 @@ footer {
     display: block;
     padding: 1.5em;
     color: #BDBDBD;
-    font-size: x-small;
+    font-size: small;
     }
 a.footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
 footer a:link {
-    color: #BDBDBD; }
+    color: white;
+    padding: 1.5em; }
 #logo {
     border-radius: 3%;
 }
