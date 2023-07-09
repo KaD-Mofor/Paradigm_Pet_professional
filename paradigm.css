@@ -18,6 +18,7 @@ nav a {
     text-align: center;
     text-decoration: none;
     padding: 1%;
+    color: #BDBDBD;
 }
 li {
     list-style-type: disc;
