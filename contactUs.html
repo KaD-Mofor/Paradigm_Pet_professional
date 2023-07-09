@@ -28,17 +28,19 @@
             </div>
 
         <main>
-            <p><i><small>All required fields have an asterisk</small></i>(*)</p>
+            <p><i><small>All fields are required</small></i>(*)</p>
             <form name="inquiry" method="post" action="http://webdevbasics.net/scripts/demo.php">
                 <fieldset>
                     <legend>Customer Information</legend>
-                        <label for="myName">*Full Name:</label>
+                        <label for="myName">Full Name:</label>
                         <input type="text" name="myName" id="myName" Required><br>
-                        <label for="myEmail">*E-Mail:</label>
+                        <label for="myEmail">E-Mail:</label>
                         <input type="email" name="myEmail" id="myEmail" Required><br>
                         <label for="mobile">Mobile:</label>
-                        <input type="tel" name="mobile" id="mobile"><br>
-                        <label for="myComments">*Comments:</label><br>
+                        <input type="tel" name="mobile" id="mobile" required><br>
+                        <label for="tzone">Time Zone:</label>
+                        <input type="text" name="tzone" id="tzone" required><br>
+                        <label for="myComments">Comments:</label><br>
                         <textarea name="myComments" id="myComments" rows="6" cols="50" required="required"></textarea><br>
                         <input type="button" value="Submit" alt="Submit button">
                     </fieldset>
