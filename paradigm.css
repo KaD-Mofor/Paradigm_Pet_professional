@@ -18,7 +18,6 @@ nav a {
     text-align: center;
     text-decoration: none;
     padding: 1%;
-    color: #BDBDBD;
 }
 li {
     list-style-type: disc;
@@ -30,7 +29,7 @@ h3 {
     font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
     color: #003B6D; }
 a:link {
-    color: #003B6D; }
+    color: black; }
 a:visited {
     color: #676767; }
 a:hover {
